@@ -5,6 +5,7 @@ import { About } from "@/components/About";
 import { Skills } from "@/components/Skills";
 import { Experience } from "./experience.tsx/page";
 import { Projects } from "./Projects/page";
+import {Certifications} from "./Certifications/page";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
     <Skills/>
     <Experience/>
     <Projects/>
+    <Certifications/>
     {/* <FeaturedCourses/> */}
     {/* <WhyChooseUs/> */}
     </main>
