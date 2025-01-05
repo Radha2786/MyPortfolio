@@ -22,7 +22,7 @@ export const projects = [
         ImgSrc: "/Projects/Transcribe.png"
     },
     {
-        Name: "Pench Deforestation - A transaction keeping app",
+        Name: "Pench Deforestation - web app designed to monitor deforestation trends in the Pench Tiger Reserve.",
         Desc: "As part of my internship,I developed the frontend of a web application designed to monitor deforestation trends in the Pench Tiger Reserve.The application provides insights through:Area Analysis: Displays trends in coordinates with deforestation increase/decrease.Cause Analysis: Highlights causes like farming, construction, and lake encroachment.",
         Demo: "https://deforestration.in/",
         ImgSrc: "/Projects/PenchDefo.png"
