@@ -40,10 +40,10 @@ export const About = () => {
 
         <p className="text-base mx-4 mt-4">
           A passionate and results-driven Full Stack Developer currently in my
-          final year of B.Tech at GLA University, Mathura. With over <br></br>
+          final year of B.Tech at GLA University, Mathura. With over 
           one years of industry experience in web development, I specialize in
           crafting dynamic and scalable applications using the MERN stack,{" "}
-          <br></br>Next.js, Docker, and modern UI frameworks like Tailwind CSS
+          Next.js, Docker, and modern UI frameworks like Tailwind CSS
           and ShadCN.<br></br>
           <br></br>I am currently working as a Software Developer Intern at
           Pankh.Ai and a former SDE Intern at Valiance Solutions, where I honed
