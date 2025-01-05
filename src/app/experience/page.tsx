@@ -1,7 +1,7 @@
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 
-export function ExperiencePage() {
+const ExperiencePage = () => {
   const data = [
     {
       title: "Valiance Solutions",
@@ -67,3 +67,5 @@ export function ExperiencePage() {
     </div>
   );
 }
+
+export default ExperiencePage;

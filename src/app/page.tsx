@@ -1,10 +1,10 @@
 import {HeroSection} from "@/components/HeroSection";
 import { About } from "@/components/About";
 import SkillPage from "./skills/page";
-import { ExperiencePage } from "./experience/page";
-// import { ProjectPage } from "./projects/page";
+import ExperiencePage from "./experience/page";
+// import ProjectPage from "./projects/page";
 import { Projects } from "@/components/Projects";
-// import {Certifications} from "./certifications/page";
+// import CertificationPage from "./certifications/page";
 import {Certifications} from "@/components/Certifications";
 // import AboutPage from "./about/page";
 

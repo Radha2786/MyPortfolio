@@ -1,8 +1,10 @@
 import React from "react";
 import { Certifications } from "@/components/Certifications";
 
-export function CertificationPage() {
+const CertificationPage = () => {
   return (
-    <Certifications/>
-  )
-}
+    <Certifications />
+  );
+};
+
+export default CertificationPage;  // Make it a default export
