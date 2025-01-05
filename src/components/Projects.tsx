@@ -3,9 +3,10 @@ import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
-import { projects } from "../data/projects";
+// import { projects } from "../data/projects";
+import { projects } from "@/app/data/projects";
 
-export function ProjectPage() {
+export function Projects() {
 
   // console.log(projects);
   projects.map((project,index)=>(

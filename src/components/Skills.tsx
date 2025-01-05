@@ -10,11 +10,11 @@ export const Skills = () => {
     const words = [
         {
             text: "Skills",
-            className: "text-purple-500 dark:text-purple-500 text-center"
+            className: "text-purple-500 dark:text-purple-500 text-2xl text-center md:text-4xl lg:text-3xl"
         },
         {
             text: "and Tech Stack",
-            className: "text-purple-500 dark:text-purple-500 text-center"
+            className: "text-purple-500 dark:text-purple-500  text-2xl text-center md:text-4xl lg:text-3xl "
         }
     ]
 

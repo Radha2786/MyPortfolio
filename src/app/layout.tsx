@@ -26,12 +26,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    // <html lang="en" className="dark">
+    //   <body
+    //     className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+    //   >
+    //     <Navbar className="hidden sm:block"/>
+    //     {children}
+    //   </body>
+    // </html>
     <html lang="en" className="dark">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
-        {children}
+        {/* Navbar with fixed positioning */}
+        <Navbar className="hidden sm:block fixed top-0 left-0 w-full z-10" />
+        {/* Main content with proper top margin to account for navbar height */}
+        <div className="pt-16">{children}</div>
       </body>
     </html>
   );

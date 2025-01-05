@@ -7,6 +7,10 @@
   --foreground: #171717;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -20,7 +24,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .about {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   width: 31rem;
   height: 19rem;
 }
