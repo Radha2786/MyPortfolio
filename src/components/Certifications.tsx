@@ -1,6 +1,6 @@
 import React from "react";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
-import Image from "next/image";
+// import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import { certifications } from "@/app/data/certifications";
@@ -10,10 +10,6 @@ import { IoMdMail } from "react-icons/io";
 
 export function Certifications() {
 
-  // console.log(projects);
-  certifications.map((project,index)=>(
-    console.log(project.ImgSrc)
-  ))
   const words = [
     {
       text: "Certifications",
@@ -40,12 +36,12 @@ export function Certifications() {
           >
             {project.Name}
           </CardItem>
-          
+
           <CardItem translateZ="100" className="w-full mt-4">
-            <Image
+            <img
               src={project.ImgSrc}
-              height="1000"
-              width="1000"
+              // height="1000"
+              // width="1000"
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
               alt="thumbnail"
             />

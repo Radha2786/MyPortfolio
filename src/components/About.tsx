@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { TypewriterEffect } from "./ui/typewriter-effect";
+// import Image from 'next/image'
 
 export const About = () => {
   const words = [
@@ -31,6 +32,8 @@ export const About = () => {
       <img
           src="https://i.postimg.cc/hPDy1GG0/dp.jpg"
           alt="Radha Sharma"
+          // width={200}
+          // height={200}
           className=" about md:mt-4  rounded-lg md:w-1/2 lg:w-1/3"
         />
         {/* ml-4 mr-16  mb-4 */}

@@ -3,6 +3,8 @@ import React from 'react'
 import { skills } from '../app/data/skills'
 import { motion } from 'framer-motion'
 import { TypewriterEffectSmooth } from './ui/typewriter-effect';
+// import Image from 'next/image'
+
 
 export const Skills = () => {
 

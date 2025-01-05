@@ -37,7 +37,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* Navbar with fixed positioning */}
-        <Navbar className="hidden sm:block fixed top-0 left-0 w-full z-10" />
+        <Navbar className="hidden sm:block absolute top-0 left-0 w-full z-10" />
         {/* Main content with proper top margin to account for navbar height */}
         <div className="pt-16">{children}</div>
       </body>
