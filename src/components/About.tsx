@@ -26,7 +26,7 @@ export const About = () => {
       <h1 className="text-2xl font-bold">
         <TypewriterEffect className="text-left ml-4 md:text-center " words={words} />
       </h1>
-      <div className="flex flex-col items-center justify-center md:flex-col lg:flex-row align-middle justify-center gap-8 md:items-center md:justify-center ">
+      <div className="flex flex-col items-center md:flex-col lg:flex-row align-middle justify-center gap-8 md:items-center md:justify-center ">
 
       <img
           src="https://i.postimg.cc/hPDy1GG0/dp.jpg"

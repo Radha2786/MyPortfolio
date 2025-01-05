@@ -1,6 +1,5 @@
 import {HeroSection} from "@/components/HeroSection";
 import { About } from "@/components/About";
-import { Skills } from "@/components/Skills";
 import SkillPage from "./skills/page";
 import { ExperiencePage } from "./experience/page";
 // import { ProjectPage } from "./projects/page";
@@ -13,16 +12,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]  md:py-0 overflow-hidden">
       {/* py-10 */}
-    {/* <HeroSection/> */}
-    {/* <About/> */}
-    {/* <AboutPage/> */}
-    {/* <Skills/> */}
-    {/* <SkillPage/> */}
-    {/* <ExperiencePage/> */}
-    {/* <Projects/> */}
-    {/* <Projects/> */}
-    {/* <Certifications/> */}
-    {/* <Certifications/> */}
 
     <section id="hero">
         <HeroSection />

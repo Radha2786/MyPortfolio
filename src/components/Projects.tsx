@@ -7,11 +7,6 @@ import Link from "next/link";
 import { projects } from "@/app/data/projects";
 
 export function Projects() {
-
-  // console.log(projects);
-  projects.map((project,index)=>(
-    console.log(project.ImgSrc)
-  ))
   const words = [
     {
       text: "Projects",

@@ -7,10 +7,10 @@ import { projects } from "../data/projects";
 
 export function ProjectPage() {
 
-  // console.log(projects);
-  projects.map((project,index)=>(
-    console.log(project.ImgSrc)
-  ))
+  // projects.map((project,index)=>(
+  //   console.log(project.ImgSrc)
+  // ))
+
   const words = [
     {
       text: "Projects",

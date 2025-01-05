@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
+import { Menu, MenuItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils"
 
 function Navbar({ className }: { className?: string }) {
@@ -45,30 +45,6 @@ function Navbar({ className }: { className?: string }) {
             href={link.path}
           ></MenuItem>
         ))}
-
-        {/* <MenuItem setActive={setActive} active={active} item="Home" href="/">
-        </MenuItem>
-
-        <MenuItem setActive={setActive} active={active} item="About" href="/about">
-        </MenuItem>
-
-        <MenuItem setActive={setActive} active={active} item="Skills" href="/skills">
-        </MenuItem>
-
-        <MenuItem setActive={setActive} active={active} item="Projects" href="/projects">
-        </MenuItem>
-
-        <MenuItem setActive={setActive} active={active} item="Experience" href="/experience">
-        </MenuItem> */}
-
-        {/* <MenuItem setActive={setActive} active={active} item="Services">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
-        </MenuItem> */}
        
       </Menu>
     </div>

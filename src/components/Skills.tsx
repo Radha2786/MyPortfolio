@@ -2,7 +2,6 @@
 import React from 'react'
 import { skills } from '../app/data/skills'
 import { motion } from 'framer-motion'
-import { text } from 'stream/consumers'
 import { TypewriterEffectSmooth } from './ui/typewriter-effect';
 
 export const Skills = () => {
