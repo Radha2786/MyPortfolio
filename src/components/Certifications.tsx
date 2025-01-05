@@ -3,8 +3,10 @@ import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
-// import {certifications} from "../data/certifications";
 import { certifications } from "@/app/data/certifications";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 export function Certifications() {
 
@@ -81,17 +83,29 @@ export function Certifications() {
            
           </div>
         </CardBody>
-      </CardContainer>
-
-      
-      
+      </CardContainer> 
       )
       
       )}
       </div>
-
       <div className="text-sm pt-60 sm:mt-20 font-light text-center relative z-20 text-gray-400 max-w-7xl pb-8">
-        Thanks for checking out :) | © Radha Sharma
+        <div className="flex flex-col">
+          <p>Connect with me    </p>
+          <div className="flex justify-center gap-4 mt-4">
+            <Link href={"mailto:radhasharma2786.com@gmail.com"}>
+            <IoMdMail size={25}/>
+            </Link>
+            <Link href={"https://github.com/Radha2786"}>
+            <FaGithub size={25}/>
+            </Link>
+            <Link href={"https://www.linkedin.com/in/radha-sharma-0a9747221/"}>
+            <FaLinkedin size={25}/>
+            </Link>
+         
+          
+           
+          </div>
+        </div>
       </div>
       
      </div>
