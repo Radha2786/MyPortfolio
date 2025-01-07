@@ -34,7 +34,7 @@ export const About = () => {
           alt="Radha Sharma"
           // width={200}
           // height={200}
-          className=" about md:mt-4  rounded-lg md:w-1/2 lg:w-1/3"
+          className=" about md:mt-4  rounded-2xl md:w-1/2 lg:w-1/3 "
         />
         {/* ml-4 mr-16  mb-4 */}
 
