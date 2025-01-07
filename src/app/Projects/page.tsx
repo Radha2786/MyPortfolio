@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
+import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
@@ -19,7 +19,7 @@ const ProjectPage = () =>{
   return (
     <div className="text-center flex justify-center align-center items-center flex-col mt-16">
       <h1 className="text-center text-purple-500 text-[4rem] font-bold">
-        <TypewriterEffectSmooth className="text-center" words={words} />
+        <TypewriterEffect className="text-center" words={words} />
       </h1>
       <div className="flex gap-10 items-center justify-center flex-wrap mt-10">
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
+import { BackgroundBeams } from "./ui/background-beams";
 
 export function HeroSection() {
     return (
@@ -16,6 +17,7 @@ export function HeroSection() {
             Proficient in Tailwind, Javascript, ReactJS, NextJS, TypeScript, and the MERN stack. Dynamic web development with efficient code and state management.
           </p>
         </div>
+        <BackgroundBeams />
       </div>
     );
   }

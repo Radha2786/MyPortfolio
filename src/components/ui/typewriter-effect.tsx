@@ -36,7 +36,8 @@ export const TypewriterEffect = ({
         },
         {
           duration: 0.3,
-          delay: stagger(0.1),
+          delay: stagger(0),
+          // 0.1
           ease: "easeInOut",
         }
       );

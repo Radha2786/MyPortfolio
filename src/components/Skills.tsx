@@ -2,7 +2,7 @@
 import React from 'react'
 import { skills } from '../app/data/skills'
 import { motion } from 'framer-motion'
-import { TypewriterEffectSmooth } from './ui/typewriter-effect';
+import { TypewriterEffect } from './ui/typewriter-effect';
 // import Image from 'next/image'
 
 
@@ -23,7 +23,7 @@ export const Skills = () => {
     
     <div className='text-center flex justify-center align-center items-center flex-col'>
       <h1 className='text-center text-purple-500 text-[4rem] font-bold'>
-        <TypewriterEffectSmooth className='text-center' words={words} />
+        <TypewriterEffect className='text-center' words={words} />
         </h1>
       <motion.div className='flex gap-10 items-center justify-center flex-wrap mt-10'>
        {skills.map((skill,index)=>(
